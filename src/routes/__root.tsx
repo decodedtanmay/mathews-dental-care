@@ -79,7 +79,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
           "Premium dental care by Dr. Manoj Mathews (BDS, 20+ yrs). Painless treatments, cosmetic dentistry, implants & more at Mathews Dental Care, Kamothe.",
       },
       { name: "author", content: "Mathews Dental Care" },
-      { property: "og:title", content: "Mathews Dental Care — Modern Dentistry" },
+      { property: "og:title", content: "Mathews Dental Care — Modern Dentistry in Kamothe, Navi Mumbai" },
       {
         property: "og:description",
         content:
@@ -87,6 +87,10 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "Mathews Dental Care — Modern Dentistry in Kamothe, Navi Mumbai" },
+      { name: "description", content: "Mathews Dental Care landing page: a premium, responsive website for dental services." },
+      { property: "og:description", content: "Mathews Dental Care landing page: a premium, responsive website for dental services." },
+      { name: "twitter:description", content: "Mathews Dental Care landing page: a premium, responsive website for dental services." },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
